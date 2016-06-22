@@ -1,0 +1,216 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{a875958e-2537-4e5d-a633-3669032439f2}</UniqueIdentifier>
+      <Extensions>cpp;c;cxx;rc;def;r;odl;idl;hpj;bat</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{28d77b5b-f3fa-4a82-be76-2b6643af36f3}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{8925a3e8-643c-4551-aeb3-d18da3dbb8c1}</UniqueIdentifier>
+      <Extensions>ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe</Extensions>
+    </Filter>
+    <Filter Include="Header Files\objects">
+      <UniqueIdentifier>{cf0b7368-1c26-4af8-8e1a-2a1262049c1f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects">
+      <UniqueIdentifier>{da0fa056-197e-4ab4-9c1f-4bbd10376f3d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\common">
+      <UniqueIdentifier>{811b206a-2737-450b-9504-1155689851db}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\common">
+      <UniqueIdentifier>{dbc177ca-cca8-4469-b169-add5e248f479}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\context">
+      <UniqueIdentifier>{d7b4bc72-1eda-4587-ac17-98c3c8aef5fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\context">
+      <UniqueIdentifier>{22f93434-d59e-4acc-a1bf-a45fb22bf33f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\utils">
+      <UniqueIdentifier>{a334dc9c-d427-4ccd-bbff-a527fcc1a887}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\utils">
+      <UniqueIdentifier>{51443359-1975-49d0-a26a-19e0302381aa}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\actors">
+      <UniqueIdentifier>{1f071ee8-9456-472e-b7b8-4bd89873d279}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\actors\others">
+      <UniqueIdentifier>{e8900c86-c561-48af-a4db-fcc42868a890}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\actors">
+      <UniqueIdentifier>{1f73b3ee-b680-482a-b114-ddf0b301f1fd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\actors\others">
+      <UniqueIdentifier>{92250e02-7bd9-4ea2-a8b5-3708e0110d26}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\factory">
+      <UniqueIdentifier>{599ce9da-f238-4916-b15c-1b3c087219c6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\factory">
+      <UniqueIdentifier>{cf7f7817-62bb-4082-8424-62f82c209b9c}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\engine">
+      <UniqueIdentifier>{15cc8e1f-6d49-4100-889d-650d918e8b71}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\engine">
+      <UniqueIdentifier>{c208b686-b5fc-45e5-bf7c-6a2961ae3224}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\objects\actors\characters">
+      <UniqueIdentifier>{819c9444-747c-4971-9f1d-81a8bb032e95}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\objects\actors\characters">
+      <UniqueIdentifier>{b3e39d11-4237-4b16-b57f-f91871888979}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Board.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="GameApp.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\Object.cpp">
+      <Filter>Source Files\objects</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\common\Ground.cpp">
+      <Filter>Source Files\objects\common</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\context\GlobalContext.cpp">
+      <Filter>Source Files\context</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\utils.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\others\Bullet.cpp">
+      <Filter>Source Files\objects\actors\others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\others\Wall.cpp">
+      <Filter>Source Files\objects\actors\others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\others\ForwardCannon.cpp">
+      <Filter>Source Files\objects\actors\others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\others\ReverseCannon.cpp">
+      <Filter>Source Files\objects\actors\others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\factory\CannonFactory.cpp">
+      <Filter>Source Files\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\factory\BulletFactory.cpp">
+      <Filter>Source Files\factory</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\others\ForwardBullet.cpp">
+      <Filter>Source Files\objects\actors\others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\others\ReverseBullet.cpp">
+      <Filter>Source Files\objects\actors\others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\engine\GameEngine.cpp">
+      <Filter>Source Files\engine</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\others\Cannon.cpp">
+      <Filter>Source Files\objects\actors\others</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\utils\PathFinder.cpp">
+      <Filter>Source Files\utils</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\characters\Character.cpp">
+      <Filter>Source Files\objects\actors\characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\characters\Guard.cpp">
+      <Filter>Source Files\objects\actors\characters</Filter>
+    </ClCompile>
+    <ClCompile Include="..\src\objects\actors\characters\Hero.cpp">
+      <Filter>Source Files\objects\actors\characters</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Board.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="GameApp.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\Object.h">
+      <Filter>Header Files\objects</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\common\Ground.h">
+      <Filter>Header Files\objects\common</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\context\GlobalContext.h">
+      <Filter>Header Files\context</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\definitions.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\Position.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\utils.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\others\Cannon.h">
+      <Filter>Header Files\objects\actors\others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\others\Bullet.h">
+      <Filter>Header Files\objects\actors\others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\others\Wall.h">
+      <Filter>Header Files\objects\actors\others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\others\ForwardCannon.h">
+      <Filter>Header Files\objects\actors\others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\others\ReverseCannon.h">
+      <Filter>Header Files\objects\actors\others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\factory\CannonFactory.h">
+      <Filter>Header Files\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\factory\BulletFactory.h">
+      <Filter>Header Files\factory</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\others\ForwardBullet.h">
+      <Filter>Header Files\objects\actors\others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\others\ReverseBullet.h">
+      <Filter>Header Files\objects\actors\others</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\engine\GameEngine.h">
+      <Filter>Header Files\engine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\PathFinder.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\node.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\characters\Character.h">
+      <Filter>Header Files\objects\actors\characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\characters\Guard.h">
+      <Filter>Header Files\objects\actors\characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\objects\actors\characters\Hero.h">
+      <Filter>Header Files\objects\actors\characters</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\Exception.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\LoseException.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+    <ClInclude Include="..\src\utils\WinException.h">
+      <Filter>Header Files\utils</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
